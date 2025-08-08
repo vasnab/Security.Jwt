@@ -1,3 +1,5 @@
+Fork to add IdentityServer8 support
+
 # JWT Key Management for .NET - Generate and auto rotate Cryptographic Keys for your Jwt (jws) / Jwe
 
 One of the biggest problem at Key Management is: How to distribute keys in a security way. HMAC relies on sharing the key between many projects. To accomplish it `NetDevPack.Security.Jwt` use Public Key Cryptosystem to generate your keys. So you can share you public key at `https://<your_api_adrress>/jwks`!  
